@@ -1,4 +1,17 @@
-<div>
+<!-- <div>
+    <mat-button-toggle #toggleButton checked disableRipple disabled>click me</mat-button-toggle>
+    {{toggleButton.checked}}
+  </div> -->
+  <div>
+    <mat-button-toggle-group #toggleGroup="matButtonToggleGroup" multiple>
+        <mat-button-toggle value="angular">Angular</mat-button-toggle>
+        <mat-button-toggle value="react">React</mat-button-toggle>
+        <mat-button-toggle value="vue">Vue</mat-button-toggle>
+    </mat-button-toggle-group>
+    {{toggleGroup.value}}
+  </div>
+
+<!-- <div>
     <button mat-button>Click Me</button>
     <button mat-flat-button>Click Me</button>
     <button mat-stroked-button>Click Me</button>
@@ -15,7 +28,7 @@
   <button color="accent" mat-button>Accent</button>
   <button color="warn" disableRipple mat-button>Warn</button>
   <button color="warn" mat-button>Warn</button>
-</div>
+</div> -->
 
 
 <!---
