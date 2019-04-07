@@ -1,6 +1,41 @@
-<div>
+<!-- <div>
   <mat-icon color="primary">backup</mat-icon>
+</div> -->
+<div>
+  <span [matBadge]="notification" matBadgePosition="below before" [matBadgeHidden]="notification === 0">Notifications</span>
 </div>
+<div>
+  <span matBadge=5 matBadgePosition="below after">Notifications</span>
+</div>
+<div>
+  <span matBadge=5 matBadgePosition="above before">Notifications</span>
+</div>
+<div>
+  <span matBadge=5 matBadgePosition="above after">Notifications</span>
+</div>
+<div>
+    <h3>Hello there</h3>
+    <span matBadge=5 matBadgePosition="below before" matBadgeSize="medium">Notifications</span>
+  </div>
+  <div>
+    <span matBadge=5 matBadgePosition="below after" matBadgeSize="large">Notifications</span>
+  </div>
+  <div>
+    <span matBadge=5 matBadgePosition="above before" matBadgeSize="small">Notifications</span>
+  </div>
+  <div>
+    <span matBadge=5 matBadgePosition="above after">Notifications</span>
+  </div>
+  <div>
+      <h3>Hello there</h3>
+      <span matBadge=5 matBadgePosition="below before" matBadgeSize="medium" matBadgeColor="primary">Notifications</span>
+    </div>
+    <div>
+      <span matBadge=5 matBadgePosition="below after" matBadgeSize="large" matBadgeColor="accent">Notifications</span>
+    </div>
+    <div>
+      <span matBadge=5 matBadgePosition="above before" matBadgeSize="small" matBadgeColor="warn" matBadgeOverlap="false">Notifications</span>
+    </div>
 
 <!-- <div>
     <mat-button-toggle #toggleButton checked disableRipple disabled>click me</mat-button-toggle>
