@@ -1,7 +1,10 @@
 <!-- <div>
   <mat-icon color="primary">backup</mat-icon>
 </div> -->
-<div>
+<!-- <mat-progress-spinner value="50"></mat-progress-spinner> -->
+<button (click)="onClick()">Click me</button>
+<mat-spinner *ngIf="spinValue"></mat-spinner>
+<!-- <div>
   <span [matBadge]="notification" matBadgePosition="below before" [matBadgeHidden]="notification === 0">Notifications</span>
 </div>
 <div>
@@ -35,7 +38,7 @@
     </div>
     <div>
       <span matBadge=5 matBadgePosition="above before" matBadgeSize="small" matBadgeColor="warn" matBadgeOverlap="false">Notifications</span>
-    </div>
+    </div> -->
 
 <!-- <div>
     <mat-button-toggle #toggleButton checked disableRipple disabled>click me</mat-button-toggle>

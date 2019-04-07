@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angularMaterial';
   notification =0;
+  spinValue = false;
+
+  onClick(){
+    this.spinValue = true;
+    setTimeout(() => {
+      this.spinValue = false;
+    }, 5000);
+  }
 }
